@@ -1,0 +1,19 @@
+! 2020-10-26 https://www.stuff.co.nz
+stuff.co.nz##.xa.x9.x8.x7.x6.x5.x4.x3.x2.x1.x0
+
+! 2020-11-02 https://www.rugbypass.com
+rugbypass.com##.article-content.no-left-margin.col-two-thirds > .fixed.news-bottom-articles
+
+! 2020-11-03 https://www.nytimes.com
+nytimes.com##.css-etcaty
+nytimes.com##.egw6tc40.css-18mm7rz
+nytimes.com##.e1x0szx60.css-3fbowa.expanded-dock.shown.MAG_web_anon_new-journey-rollout
+
+! Block suggested for you on facebook.com
+facebook.com##[id^=hyperfeed_story_id_] .userContentWrapper div:has-text(/Suggested Events|Suggested for you/)
+##div[data-pagelet*="FeedUnit"]:has(span[dir="auto"]:has-text(Suggested for you))
+facebook.com##[data-pagelet^="FeedUnit_"]:has([href^="/ads/about/"])
+facebook.com##div[data-pagelet*="FeedUnit"]:has(span[class] + [role*="n"] > span > span + span)
+facebook.com##div[data-pagelet*="FeedUnit"]:has(div:not([class]):not([id]):empty ~ div:not([class]):not([id]) > div:not([class]):not([id]) > div:not([class]):not([id]):first-child:has(span[dir="auto"]:only-child) + div:not([class]):not([id]) + div:not([class]):not([id]) + div:not([class]):not([id]):last-child)
+facebook.com##div[data-pagelet*="FeedUnit"]:has(div[aria-label*="Sponsored" i])
+facebook.com##div[data-pagelet*="FeedUnit"]:has-text(/(Suggested for you)|Recommend/)
