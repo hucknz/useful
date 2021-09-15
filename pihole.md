@@ -5,7 +5,7 @@
 
 Now you have port 53 open, but no dns configured for your host. To fix that, you need to edit '/etc/resolv.conf' and add the dns address. 
 
-`sudo nano /etc/resolv.conf`
+3. `sudo nano /etc/resolv.conf`
 
 nameserver 192.168.1.9
 
