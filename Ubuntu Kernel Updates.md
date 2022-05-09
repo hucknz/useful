@@ -13,3 +13,7 @@ https://github.com/intel/compute-runtime
 
 ### Transcoding setup
 https://tomthegreat.com/blog/setting-up-ubuntu-20-04-lts-for-plex-with-intel-gen-12-cpu/amp/
+
+# Apps
+## DNS port unable to bind error
+https://github.com/pi-hole/docker-pi-hole/#installing-on-ubuntu
