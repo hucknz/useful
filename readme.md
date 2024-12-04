@@ -19,4 +19,4 @@ https://github.com/pi-hole/docker-pi-hole/#installing-on-ubuntu
 Monitor and respond to failures automatically: https://github.com/hucknz/useful/edit/main/monit.md
 
 ### SnapRAID
-SnapRAID helper script to run each day and notify of outcomes via healthchecks.io: 
+SnapRAID helper script to run each day and notify of outcomes via healthchecks.io: https://github.com/hucknz/useful/tree/main/snapraid
