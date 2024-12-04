@@ -16,5 +16,6 @@ https://tomthegreat.com/blog/setting-up-ubuntu-20-04-lts-for-plex-with-intel-gen
 https://github.com/pi-hole/docker-pi-hole/#installing-on-ubuntu
 
 ### Monit
-Monitor and respond to failures automatically. 
+Monitor and respond to failures automatically.
+
 https://github.com/hucknz/useful/edit/main/monit.md
