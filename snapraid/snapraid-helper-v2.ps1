@@ -1,7 +1,9 @@
- # Set the .ini file path
-$ScriptName = $MyInvocation.MyCommand.Name
-$HomePath = "C:\SnapRAID\Script"  # Update this path if necessary
-$ConfigFile = Join-Path $HomePath "snapraid-helper.ini"
+# Determine the directory of the current script
+$ScriptPath = $MyInvocation.MyCommand.Path
+$ScriptDirectory = Split-Path -Path $ScriptPath
+
+# Set the .ini file path dynamically
+$ConfigFile = Join-Path $ScriptDirectory "snapraid-helper.ini"
 
 # Ensure the .ini file exists
 if (!(Test-Path $ConfigFile)) {

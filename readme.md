@@ -16,6 +16,7 @@ https://tomthegreat.com/blog/setting-up-ubuntu-20-04-lts-for-plex-with-intel-gen
 https://github.com/pi-hole/docker-pi-hole/#installing-on-ubuntu
 
 ### Monit
-Monitor and respond to failures automatically.
+Monitor and respond to failures automatically: https://github.com/hucknz/useful/edit/main/monit.md
 
-https://github.com/hucknz/useful/edit/main/monit.md
+### SnapRAID
+SnapRAID helper script to run each day and notify of outcomes via healthchecks.io: 
