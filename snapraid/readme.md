@@ -6,5 +6,5 @@ This is a simplified SnapRAID helper script that is designed to be run daily. Th
 
 ## Setup
 1. Clone snapraid-helper-v2.ps1 and snapraid-helper.ini to a folder on your SnapRAID host. snapraid helper *must* be in the same folder as the script. 
-2. Configure the settings in snapraid-helper.ps1
+2. Configure the settings in snapraid-helper.ini
 3. Run the script daily using task scheduler, or whatever other mechanism you like. 
