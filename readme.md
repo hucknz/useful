@@ -31,6 +31,8 @@ Modern releases of Ubuntu (17.10+) and Fedora (33+) include systemd-resolved whi
 
 `sudo sh -c 'rm /etc/resolv.conf && ln -s /run/systemd/resolve/resolv.conf /etc/resolv.conf'`
 
+`systemctl restart systemd-resolved`
+
 Credit to pihole for this: https://github.com/pi-hole/docker-pi-hole/?tab=readme-ov-file#installing-on-ubuntu-or-fedora
 
 ### Monit
