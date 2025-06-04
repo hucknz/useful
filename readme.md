@@ -46,6 +46,7 @@ Some Linux operating systems have moved to systemd-journald for logging. Out of 
 ```
 wget https://raw.githubusercontent.com/hucknz/useful/refs/heads/main/systemd_log_generator.sh
 sudo chmod +x systemd_log_generator.sh
+sudo systemd_log_generator.sh
 sudo nano /etc/newrelic-infra/logging.d/logging.yml
 ```
 Credit to [mlemieux](https://support.newrelic.com/s/profile/0051U000008JfmMQAS) and [szilvesztercsab+nrtest0](https://support.newrelic.com/s/profile/005Ph000001LNXJIA4) in this thread: https://support.newrelic.com/s/hubtopic/aAX8W000000L5ghWAC/systemd-logging-how-to-do-all
