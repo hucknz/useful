@@ -44,6 +44,7 @@ SnapRAID helper script to run each day and notify of outcomes via healthchecks.i
 ### New Relic
 Some Linux operating systems have moved to systemd-journald for logging. Out of the box New Relic doesn't seem to capture these logs and fluent-bit doesn't support a wildcard. To add all the systemd units to New Relic you can run the following script to generate the config and add it to your logging.yml file. 
 ```
+cd scripts
 wget https://raw.githubusercontent.com/hucknz/useful/refs/heads/main/systemd_log_generator.sh
 sudo chmod +x systemd_log_generator.sh
 sudo systemd_log_generator.sh
